@@ -14,7 +14,7 @@ int main(void)
 	while (i < 58)
 	{
 		printf("%i", i);
-		n++;
+		i++;
 	}
 
 	putchar(10);
