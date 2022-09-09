@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-	int n = '0';
+	int i = 48;
 
-	while (n <= 9)
+	while (i < 58)
 	{
-		printf("%i", n);
+		printf("%i", i);
 		n++;
 	}
 
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
