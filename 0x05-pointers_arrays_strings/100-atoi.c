@@ -2,7 +2,7 @@
 /**
  * is_numerical - entry point
  * @n: number
- * @return: if a number, return 1, else return 0
+ * Return: if a number, return 1, else return 0
  */
 int is_numerical(unsigned int n)
 {
@@ -35,5 +35,5 @@ int _atoi(char *s)
 			sign *= -1;
 		}
 	}
-	return (number *sign);
+	return (number * sign);
 }
