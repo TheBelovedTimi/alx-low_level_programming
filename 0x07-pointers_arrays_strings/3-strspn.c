@@ -5,7 +5,7 @@
  * @accept: List of character
  * Return: count
  */
-unsigned int _strspn(char *s, *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int i, j, f, flag;
 
