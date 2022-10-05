@@ -50,7 +50,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	size = _strlen(str) + 1;
-	dst = (char *) malloc(size *sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 
 	if (dst == 0)
 	{
