@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _strlen - etry point
+ * _strlen - entry point
  * @s: array of elements
  * Return: i
  */
 int _strlen(char *s)
 {
 	unsigned int i;
-	
+
 	i = 0;
 	while (s[i] != '\0')
 	{
@@ -17,8 +17,8 @@ int _strlen(char *s)
 }
 /**
  * str_concat - entry point
- * @s1: Array 1
- * @s2: Array 2
+ * @s1: Array1
+ * @s2: Array2
  * Return: array
  */
 char *str_concat(char *s1, char *s2)
