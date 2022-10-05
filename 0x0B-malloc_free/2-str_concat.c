@@ -32,7 +32,6 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	size = (_strlen(s1) + _strlen(s2) + 1);
 	dst = (char *) malloc(size * sizeof(char));
-
 	if (dst == 0)
 	{
 		return (NULL);
